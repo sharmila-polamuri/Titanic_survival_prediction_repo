@@ -1,0 +1,11 @@
+# Data paths
+data:
+  train_data_path: /Users/apple/Documents/Projects/titanic-survival-prediction/data/train.csv    # Path to the raw training data
+  test_data_path: /Users/apple/Documents/Projects/titanic-survival-prediction/data/test.csv    # Path to the raw test data
+  test_y_path: /Users/apple/Documents/Projects/titanic-survival-prediction/data/gender_submission.csv # Path to test target data
+  train_processed_data_path: /Users/apple/Documents/Projects/titanic-survival-prediction/data/train_preprocessed.csv  # Directory for processed data
+  test_processed_data_path: /Users/apple/Documents/Projects/titanic-survival-prediction/data/test_preprocessed.csv
+
+# Model settings
+model:
+  model_path: /Users/apple/Documents/Projects/titanic-survival-prediction/models/model.pkl
